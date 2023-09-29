@@ -1,0 +1,86 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: black;
+    opacity: 0.5;
+    height: 40px;
+}
+.about{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'HK Grotesk Regular Legacy';
+}
+.link:hover{
+    box-shadow: 5px 5px 5px  #323232;
+}
+
+.info{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hello{
+    padding-top: 10px;
+    text-align: center;
+    color: #323232;
+    font-size: 55px;
+}
+.name{
+    font-size: 55px;
+    color: #a59b94;
+    font-family: 'HK Grotesk Regular Legacy';
+}
+.std{
+    font-size: 20px;
+    color: #a59b94;
+}
+
+
+.socials{
+    background-color: #DDD0C8;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    max-width: 1000px;
+}
+
+
+.logo{
+    height: 40px;
+}
+.logo:hover{
+    box-shadow: 5px 5px 5px #888888;
+}
+.email{
+    padding-top: 30px;
+}
+
